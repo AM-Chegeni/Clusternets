@@ -1,4 +1,5 @@
 # k-Nets
+
 ## A deep learning approach for distinguishing ΛCDM and k-essence cosmologies
 
 This is a code related to the article titled "A deep learning approach for distinguishing ΛCDM and k-essence cosmologies". In this paper, we employ two ML algorithms to study the capability of ML in distinguishing k-essence type theories from the Lambda Cold Dark Matter (ΛCDM) ones. We train the Convolutional Neural Network (CNN) algorithm over the randomly chosen density patches of N -body simulation snapshots from gevolution and k-evolution codes. Our results show that the CNN algorithm is a powerful tool to distinguish k-essence theories even in case the matter power spectra of these theories are barely distinguishable. The accuracy of the CNN algorithm can be improved by 10-20% compared to the Random Forest (RF) algorithm trained over the power spectra. We find that the CNN algorithm has higher accuracy in small scales relative to the RF algorithm. Our strategy to use random patches of simulations for training the CNN algorithm, can be a useful tool to distinguish k-essence and ΛCDM cosmologies from a random patch of the sky.
@@ -18,3 +19,4 @@ First, adjust your parameter in config.ini file:
 * path_k_X = The path of 6 Gadget k-essence simulation snapshots 
 
 Then run the run.sh in terminal and get the results!
+![scheme1](https://user-images.githubusercontent.com/84251796/202574118-5e74dde4-e5ac-4c0f-b497-28802a748b4e.png)
