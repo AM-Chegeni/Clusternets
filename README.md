@@ -6,7 +6,7 @@ This is a code related to the article titled "A deep learning approach for disti
 
 ## User manual
 
-First, adjust your parameter in config.ini file:
+First, adjusting your parameter in config.ini file:
 
 * main_box = The Number of Ngrid in simulation snapshots ( 128 or 256)
 
